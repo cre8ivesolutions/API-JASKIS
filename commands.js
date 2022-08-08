@@ -97,7 +97,7 @@
 // db.bounties.find({},{client: 0})
 
 // 4. Query for a Groundhog in the Woodlands
-// db.bounties.find({},{location:'Woodlands', species: 'Groundhog'})
+// db.bounties.find({ $and: [{location:'Woodlands', species: 'Groundhog'}]})
 
 // Update and Delete
 // 1. Update the reward for Polarwind to 10000
